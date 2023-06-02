@@ -1,0 +1,18 @@
+services:
+  app:
+    container_name: noob-note
+    image: node:lts-alpine
+    working_dir: /app
+    command: yarn dev
+    ports:
+      - 80:3000
+    volumes:
+      - .:/app:delegated
+    networks:
+      - local
+
+networks:
+  local: null
+
+volumes:
+  db: null
