@@ -1,0 +1,13 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "noob-note",
+  "outputfilename": "noob-note",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "ShadowBurst",
+    "email": "37303345+shadowburst@users.noreply.github.com"
+  }
+}
