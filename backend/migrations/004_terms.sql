@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS terms (
+    id INTEGER PRIMARY KEY,
+    start_date VARCHAR(255) NOT NULL,
+    end_date VARCHAR(255) NOT NULL
+);

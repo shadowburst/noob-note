@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS classrooms (
+    id INTEGER PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    grade_id INTEGER NOT NULL,
+    FOREIGN KEY (grade_id) REFERENCES grades (id) ON DELETE CASCADE
+);
